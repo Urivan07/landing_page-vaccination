@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fredoka One';
+}
+
+section[id] {
+    scroll-margin-top: 120px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(177, 177, 177);
+
+}
+
+button {
+    background-color: rgb(2, 92, 206);
+    font-size: 15px;
+    color: white;
+    min-height: 40px;
+    min-width: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+span {
+    background-color: rgba(133, 166, 255, 0.178);
+    color: rgb(2, 92, 206);
+    text-align: center;
+    border-radius: 4px;
+}
+
+.horizontal_align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vertical_align {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.database-header {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+.seccion_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.seccion_emergency {
+    height: 950px;
+}
+
+.database-buttom_container {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.education {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+.title_page {
+    color: rgb(41, 41, 252);
+    font-size: 30px;
+}
+
+.flex_relative {
+    position: relative;
+}
+
+.section-info {
+    width: 50%;
+    height: 100%;
+}
+
+.info {
+    font-size: 20px;
+    color: rgb(12, 12, 92);
+}
+
+.info_figth {
+    margin-top: 140px;
+    margin-bottom: 120px;
+}
+
+.info_date {
+    border-style: groove;
+    border-color: #d3d3d33b;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.info_date div {
+    width: 25%;
+}
+
+.title {
+    font-weight: 500;
+    color: rgb(12, 12, 92);
+}
+
+.description {
+    font-size: 20px;
+    color: rgb(177, 177, 177);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content_center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.icons_style {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.icons2_style {
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+}
+
+.margin_style {
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.data-info {
+    font-size: 20px;
+    color: rgb(12, 12, 92);
+}
+
+.yellow_icons {
+    text-align: center;
+    background-color: rgb(249, 255, 214);
+    color: rgb(255, 208, 0);
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.vaccine_logo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.reason_to_vaccine {
+    width: 40%;
+}
+
+.boxes_reason_to_vaccine {
+    border-style: groove;
+    border-color: #d3d3d33b;
+    padding: 30px;
+    width: 250px;
+    height: 290px;
+    background: white;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.boxes_emergency {
+    border-style: groove;
+    border-color: #d3d3d33b;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+    background: white;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+.box_info_news {
+    border-style: groove;
+    border-color: #d3d3d33b;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.about {
+    background-color: rgba(133, 166, 255, 0.178);
+}
+
+.img_cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
