@@ -1,4 +1,4 @@
-#Práctica Página web Vacunación
+# Práctica Página web Vacunación
 
 ### Práctica CSS para Front-End de LaunchX
 * Link de la página publicada: [pagina_vacunacion](https://urivan07.github.io/landing_page-vaccination/)
